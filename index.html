@@ -1,17 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css\index.css">
+    <title>Seafood Recipes</title>
+    <link rel="icon" type="image/x-icon" href="\images\favicon.png">
 </head>
+
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="\recipes\lasagna.html">Debbie's Vegetable Lasagna</a></li>
-        <li><a href="\recipes\roti.html">Vegetable Kottu Roti</a></li>
-        <li><a href="\recipes\curry.html">Easy Red Thai Curry with Chicken and Broccoli</a></li>
-    </ul>
+
+    <!-- header text -->
+    <header class="center">
+        <div class="waviy">
+            <span style="--i:1">G</span>
+            <span style="--i:2">r</span>
+            <span style="--i:3">e</span>
+            <span style="--i:4">a</span>
+            <span style="--i:5">t</span>
+            <span style="--i:6"> </span>
+            <span style="--i:7">S</span>
+            <span style="--i:8">e</span>
+            <span style="--i:9">a</span>
+            <span style="--i:10">f</span>
+            <span style="--i:10">o</span>
+            <span style="--i:10">o</span>
+            <span style="--i:10">d</span>
+            <span style="--i:10"> </span>
+            <span style="--i:10">R</span>
+            <span style="--i:10">e</span>
+            <span style="--i:10">c</span>
+            <span style="--i:10">i</span>
+            <span style="--i:10">p</span>
+            <span style="--i:10">e</span>
+            <span style="--i:10">s</span>
+        </div>
+    </header>
+
+    <!-- images of dishes -->
+    <div id="dishes">
+        <img id="left-dish" src="images\dish_sea_bass.png" alt="Dish sea bass" usemap="#workmap1" width="405"
+            height="405">
+        <img id="center-dish" src="images\dish_scallops.png" alt="Dish scallops" usemap="#workmap2" width="405"
+            height="405">
+        <img id="right-dish" src="images\dish_lobster.png" alt="Dish lobster" usemap="#workmap3" width="405"
+            height="405">
+    </div>
+
+    <map name="workmap1">
+        <area shape="circle" coords="202,202,305" alt="Dish Sea Bass" href="recipes\sea_bass.html">
+    </map>
+    <map name="workmap2">
+        <area shape="circle" coords="202,202,305" alt="Dish Scallops" href="recipes\scallops.html">
+    </map>
+    <map name="workmap3">
+        <area shape="circle" coords="202,202,305" alt="Dish Lobster" href="recipes\lobster.html">
+    </map>
+
+    <!-- Animation of waves -->
+    <div class="ocean">
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
 </body>
+
 </html>
